@@ -1,0 +1,50 @@
+body {
+	background: #474bff;
+	background: -webkit-linear-gradient(34deg, #474bff 0%, #bc48ff 100%);
+	background: linear-gradient(34deg, #474bff 0%, #bc48ff 100%);
+	background-size: 100vw 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+.widget {
+	background: rgba(255, 255, 255, 0.4);
+	-webkit-backdrop-filter: blur(9px);
+	backdrop-filter: blur(9px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	width: 400px;
+	border-radius: 10px;
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	gap: 70px;
+	margin: 100px auto;
+}
+
+.widget__status {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.widget__image {
+	width: 100px;
+}
+
+.widget__deg {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.widget__state {
+	margin-top: 10px;
+	display: flex;
+	gap: 30px;
+}
+
+.widget__humt,
+.widget__wind {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 20px;
+}
